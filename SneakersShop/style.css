@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 9%;
+    margin-bottom: 4%;
+    border-bottom: 1px solid #d8d8d8;
+}
+.logo{
+    flex-grow: 6;
+    font-size: 2em;
+    font-weight: bold;
+}
+.logo a{
+    color:black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.logo a img{
+    margin-right: 16px;
+}
+.header__wrapper{
+    flex-grow: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button__image{
+    margin-right: 6px;
+}
+.wrapper__main{
+    padding: 0 9%;
+}
+.topBlock{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+.topBlock__wrapper{
+    background: #F4EFE9;
+    border-radius: 12px 0 0 12px ;
+    padding: 12px;
+}
+.topBlock__content{
+    padding: 24px;
+}
+.topBlock__title{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.Human{
+    font-weight: bold;
+    color: #8BB43C;
+}
+.Buy{
+    background: #A5D364;
+    border: none;
+    padding: 14px 42px;
+    border-radius: 110px;
+    color: #ffff;
+    cursor: pointer;
+}
+.image img{
+    height: 100%;
+}
+.sneakersCatalog__header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 26px;
+}
+.sneakersCatalog__title{
+    font-weight: bold;
+}
+.sneakersCatalog__search{
+    display: flex;
+    align-items: center;
+}
+.sneakersCatalog__search input{
+    border: 1px solid #d8d8d8;
+    padding: 12px;
+    border-radius: 10px;
+}
+.sneakersCatalog__search input::placeholder{
+    color: #d8d8d8;
+}
+.sneakersCatalog__cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sneakersCatalog__card{
+    border: 1px solid #d8d8d8;
+    border-radius: 40px;
+    padding: 29px;
+    margin-bottom: 42px;
+}
+.sneakersCatalog__addBookmarks{
+    background: none;
+    border: 1px solid #d8d8d8;
+    display: flex;
+    padding: 9px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.sneakersCatalog__image{
+    text-align: center;
+}
+.sneakersCatalog__image img{
+    width: 132px;
+    height: 122px;
+}
+.sneakersCatalog__name{
+    width: 176px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.sneakersCatalog__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    color: #d8d8d8;
+    font-weight: 500;
+}
+.numbers{
+    font-weight: bold;
+}
+.sneakersCatalog__button{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: none;
+    border: 1px solid #d8d8d8;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.l1{
+    display: flex;
+}
+.l1.none{
+    display: none;
+}
+.basketSidebar{
+    z-index: 2;
+    width: 469px;
+    height: 1622px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right:0;
+    background: white;
+    padding: 24px 36px;
+}
+.fon{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 1622px;
+    z-index: 2;
+    position: absolute;
+}
+.basketSidebar__sneakers{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #d8d8d8;
+    border-radius: 22px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.basketSidebar__title{
+    font-weight: bold;
+    margin-bottom: 29px;
+}
+.basketSidebar__image img{
+    width: 132px;
+    height: 122px;
+    margin-right: 21px;
+}
+.basketSidebar__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.basketSidebar__text{
+    margin-bottom: 16px;
+}
+.basketSidebar__price{
+    font-weight: bold;
+}
+.basketSidebar__btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.basketSidebar__button{
+    padding: 10px 12px;
+    background: none;
+    border: 1px solid #d8d8d8;
+    border-radius:9px;
+    cursor: pointer;
+}
+.total, .tax{
+    margin-bottom: 16px;
+}
+.total__numbers, .tax__numbers{
+    font-weight: bold;
+}
+.basketSidebar__Checkout{
+    color: #ffff;
+    border: none;
+    padding: 14px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 10px;
+    background: #A5D364;
+}
+.union__wrapper{
+    padding: 0 12%;
+}
+.union__header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+}
+.union__btn{
+    margin-right: 19px;
+}
+.union__title{
+    font-weight: bold;
+}
+.union__back{
+    display: flex;
+    padding: 10px 12px;
+    border-radius: 9px;
+    background: none;
+    border: 1px solid #d8d8d8;
+}
+.union__main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
